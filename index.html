@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Piaaxi - Innovative Software Solutions</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <div class="logo"><img src="images/logo.jpg" alt="Piaaxi Logo"></div>
+      <nav>
+        <ul class="main-nav">
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero active">
+    <div class="container">
+      <div class="hero-content">
+        <h2>Transform Your Business with Technology</h2>
+        <p>We deliver innovative software solutions that drive growth and efficiency</p>
+        <a href="#contact" class="btn">Start Your Project</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title">About Us</h2>
+      <p>Piaaxi is a leading software development company specializing in creating custom solutions for businesses worldwide. With over a decade of experience, our team of experts combines technical excellence with industry insights to deliver transformative digital solutions.</p>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="section">
+    <div class="container">
+      <h2 class="section-title">Our Services</h2>
+      <div class="services-grid">
+        <div class="service-card">
+          <img src="https://kartikmehtablog.com/wp-content/uploads/2022/12/AdobeStock_419269782-scaled.jpeg" alt="Web Development">
+          <h3>Web Development</h3>
+          <p>Custom web applications and enterprise solutions built with cutting-edge technologies</p>
+        </div>
+        <div class="service-card">
+          <img src="https://elearn.nptel.ac.in/wp-content/uploads/2023/06/Android-App-Development-1536x818.jpg" alt="Mobile Apps">
+          <h3>Mobile Development</h3>
+          <p>Native and cross-platform mobile applications for iOS and Android</p>
+        </div>
+        <div class="service-card">
+          <img src="https://itadvice.io/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F0x203nw4%2Fproduction%2F038f0395b32cfae7183039488e73a0c9d0d35306-1792x1024.webp%3Fw%3D1792%26q%3D100%26auto%3Dformat&w=3840&q=100" alt="Cloud Solutions">
+          <h3>Cloud Solutions</h3>
+          <p>Scalable cloud infrastructure and SaaS solutions for modern businesses</p>
+        </div>
+         <!-- New Services Added -->
+         <div class="service-card">
+          <img src="https://pairroxz.com/blog/wp-content/uploads/2023/11/Top-20-graphic-designing-companies-in-india-2023-feature-image.png" alt="Graphic Design">
+          <h3>Graphic Design</h3>
+          <p>Professional branding, logo design, and visual identity solutions</p>
+        </div>
+        <div class="service-card">
+          <img src="https://cdn.prod.website-files.com/65e89895c5a4b8d764c0d70e/664779be41effd83757c1050_c600ecf0-9358-4fbb-9651-6f2bf28c7650.webp" alt="Video Editing">
+          <h3>Video Editing</h3>
+          <p>High-quality video production, editing, and post-production services</p>
+        </div>
+        <div class="service-card">
+          <img src="Images/Courses.png" alt="Courses">
+          <h3>Courses</h3>
+          <p>Comprehensive training programs in web development, design, and digital marketing</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="section">
+    <div class="container">
+      <h2 class="section-title">Our Work</h2>
+      <div class="portfolio-grid">
+        <div class="portfolio-item">
+          <img src="https://woovina.com/images/2022/03/31/mekog-cover.png" alt="E-commerce Platform">
+          <p>E-commerce Platform</p>
+        </div>
+        <div class="portfolio-item">
+          <img src="https://s3-alpha.figma.com/hub/file/4210100113/701f36a5-4b41-42b2-8e5f-e5b2039f6c73-cover.png" alt="Mobile App">
+          <p>Tourism Mobile App</p>
+        </div>
+        <div class="portfolio-item">
+          <img src="https://media.licdn.com/dms/image/v2/D4D12AQFUChVIK5Crxg/article-inline_image-shrink_1000_1488/article-inline_image-shrink_1000_1488/0/1685527474181?e=1744243200&v=beta&t=we1wVt3KK3S_1aDHE91ilBBiPuF0yIjJOJS-TazK948" alt="CRM System">
+          <p>AI-Powered CRM System</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2 class="section-title">Get In Touch</h2>
+      <form id="contact-form" class="contact-form">
+        <div class="form-group">
+          <input type="text" id="name" placeholder="Your Name" required>
+        </div>
+        <div class="form-group">
+          <input type="email" id="email" placeholder="Your Email" required>
+        </div>
+        <div class="form-group">
+          <input type="text" id="subject" placeholder="Subject" required>
+        </div>
+        <div class="form-group">
+          <textarea id="message" rows="6" placeholder="Your Message" required></textarea>
+        </div>
+        <div id="status-message"></div>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="social-links">
+        <a href="https://www.facebook.com/piaaxi" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.x.com/piaaxi" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.linkedin.com/company/piaaxi" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/piaaxi" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.github.com/piaaxi" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
+      <p>&copy; 2025 Piaaxi. All rights reserved.</p>
+      <p>One Line of Code at a Time – Building the Future, Today.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
