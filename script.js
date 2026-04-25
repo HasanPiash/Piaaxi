@@ -4,6 +4,7 @@ const mainNav = document.querySelector('.main-nav');
 const navLinks = document.querySelectorAll('.main-nav a');
 const sections = document.querySelectorAll('section');
 
+
 // Smooth scroll and active class management
 navLinks.forEach(link => {
   link.addEventListener('click', function(e) {
@@ -11,6 +12,7 @@ navLinks.forEach(link => {
     const targetId = this.getAttribute('href');
     const targetSection = document.querySelector(targetId);
 
+    
     // Remove active class from all links
     navLinks.forEach(link => link.classList.remove('active'));
     this.classList.add('active');
@@ -51,6 +53,7 @@ sections.forEach(section => {
   observer.observe(section);
 });
 
+    
 // Toggle mobile menu
 menuToggle.addEventListener('click', () => {
   mainNav.classList.toggle('active');
